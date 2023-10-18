@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css style Sheet  -->
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/mainStyle.css">
+    <link rel="icon" href="imgs/logo.png">
+    <!-- Google Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=DM+Serif+Display:ital@1&family=Inconsolata:wght@400;500;800&family=Raleway:ital,wght@0,500;1,300;1,400&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <!-- icons links  -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Coffee Shop</title>
+</head>
+<body>
+        <div class="mainheader sticky" id="home">
+            <div class="container">
+                <a href="index.html"><div class="logoimg"><img src="imgs/logo.png"></div></a>
+                <nav>
+                    <i class="bx bx-menu toggle"></i>
+                    <ul>
+                        <li><a href="HTML/Menu.html">Menu</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#footer">Contact</a></li>
+                    </ul>
+                <div class="login"><i class="bx bx-user"></i></div>
+                </nav>
+            </div>
+        </div>
+        <div class="login-cart-big-container">
+            <div class="login-cart-container close">
+                <div class="login-cart">
+                    <span class="material-symbols-outlined login-cart-close-icon">close</span>
+                    <div class="login-cart-header">
+                        <h1>Login</h1>
+                        <p>we're happe to have you</p>
+                    </div>
+                    <div class="login-cart-form">
+                        <form action="#">
+                            <div class="form-item">
+                                <span class="form-item-icon"><i class="bx bx-envelope"></i></span>
+                                <input type="email" placeholder="Enter your Email..." required>
+                            </div>
+                            <div class="form-item">
+                                <span class="form-item-icon"><i class="bx bx-lock"></i></span>
+                                <input type="password" placeholder="Enter your Password..." required>
+                            </div>
+                            <div class="form-item-other">
+                                <div class="checkbox">
+                                    <input type="checkbox" id="rememberMeCheckbox">
+                                    <label for="rememberMeCheckbox">Remember me</label>
+                                </div>
+                                <a href="#">I forgot my password</a>
+                            </div>
+                            <button type="submit" class="login-btn">Sign In</button>
+                        </form>
+                        <div class="login-cart-footer">
+                            Don't have an account ? <a href="#">Create Account</a> .
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="coffee">
+        <div class="title">
+            <h1>Types of Coffee Beans We Use</h1>
+        </div>
+        <div class="container">
+            <div class="coffee-type">
+                <img src="imgs/CoffeeBeans.png">
+                <h3>Arabica</h3>
+                <p>Arabica is the world is  most popular coffee. It makes up around 75% of the global coffee bean production.
+                    Arabica beans tend to be milder and sweeter and are thus more palatable for the general public.</p>
+            </div>
+            <div class="coffee-type">
+                <img src="imgs/CoffeeMachen.png">
+                <h3>Preparing coffee</h3>
+                <p>Line the basket of your coffee maker with a filter. Grind coffee beans to medium or medium-fine grind size. 
+                    Bring filtered water to a boil, then let it sit for a minute. Pour enough water into the filter to wet it completely,
+                    and let it drain into your cup or coffee pot</p>
+            </div>
+            <div class="coffee-type">
+                <img src="imgs/CoffeeBeans.png">
+                <h3>Excelsa</h3>
+                <p>If there was little known about Liberica, there is  even less known about its cousin Excelsa. This coffee bean species was discovered in Central Africa in the early 1900s.
+                    Once recognized as a species in its own right, Excelsa was officially reclassified as a synonym for Liberica in 2006.</p>
+            </div>
+        </div>
+    </div>
+    <div class="special">
+        <div class="title">
+            <h1>Special Items </h1>
+            <p> This Always Change So Stay Ready </p>
+        </div>
+        <div class="container">
+                <div class="special-items text">
+                    <div class="special-title">
+                        <h2>Summer drinks</h2>
+                        <h3>Buy one fall drink, get one free</h3>
+                        <p>Rewards members get one free handcrafted fall drink with purchase of any fall beverage, every Thursday afternoon in September.</p>
+                        <div>
+                            <a href="#" class="order-btn">Order now</a>
+                        </div>
+                    </div>
+                    </div>
+                <div class="special-items img">
+                    <img src="imgs/Summerdrinks-sections.png">
+                    <img src="imgs/side_image03.png">
+                    </div>                    
+                </div>
+                <div class="container">
+                    <div class="special-items img">
+                        <img src="imgs/coffeeShopeMemberShip.png">
+                        <img src="imgs/side_image01.png">
+                    </div>
+                    <div class="special-items text">
+                        <div class="special-title">
+                            <h2>Member Ship</h2>
+                            <h3>Buy 9 coffees and the 10th is on us!</h3>
+                            <p>Start your day with a cup of coffee. Choose your favorite coffee here. Get two coffee cups with a special discount, only valid for three days .</p>
+                            <div>
+                                <a href="#" class="order-btn">Join Now</a>
+                            </div>
+                        </div>
+                        </div>
+                </div>
+    </div>
+        <div class="about-container" id="about">
+        <div class="overlay"></div>
+        <div class="about-text hidden">
+            <div class="title">
+                <h1 style="color:#C0C0C5;">About Us </h1>
+            </div>
+                <p><span><i class="bx bxs-quote-left"></i></span>We've 50 years' experience of crafting the finest quality coffee. From revolutionary methods and commitment to quality to unforgettable successes that have made Costa Coffee the Nation's Favourite* coffee shop, our story is as unique as our coffee.<span><i class="bx bxs-quote-right"></i></span></p>
+        </div>
+        </div>
+        <div class="full-footer-content" id="footer">
+            <div class="Coffee-Help-Section">
+                <div class="Sec-help">
+                    <h3>We're Always Here To Help <br><p>Reach out to us through any of these support channels</p> </h3>
+                    <div class="Sec-help">
+                        <a href="#">
+                            <i class="bx bx-help-circle"></i>
+                            <p>help.coffeeShpe.com</p>
+                        </a>
+                    </div>
+                    <div class="Sec-help">
+                        <a href="#">
+                            <i class="bx bx-envelope"></i>
+                            <p>support@coffeeshop.com</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+                <div class="footer container">
+                    <div class="footer-box">
+                        <div class="logo"><img src="imgs/logo.png"></div>
+                        <div class="social">
+                        <a href="#"><i class="bx bxl-facebook"></i></a>
+                        <a href="#"><i class="bx bxl-instagram"></i></a>
+                        <a href="#"><i class="bx bxl-twitter"></i></a>
+                        <a href="#"><i class="bx bxl-youtube"></i></a>
+                    </div>
+                    </div>
+                    <div class="footer-box">
+                        <h3>pages</h3>
+                        <a href="index.html">Home</a>
+                        <a href="HTML/Menu.html">Menu</a>
+                    </div>
+                    <div class="footer-box">
+                        <h3>Legal</h3>
+                        <a href="#">Privce Policy</a>
+                        <a href="#">Refund Policy</a>
+                        <a href="#">Terms Of use</a>
+                        <a href="#">Terms Of use</a>
+                        <a href="#">Disclamer</a>
+                    </div>
+                    <div class="footer-box">
+                        <h3>Branches</h3>
+                        <p>United States</p>
+                        <p>Saudi Arabia</p>
+                        <p>Japan</p>
+                        <p>Germany</p>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <div class="col">
+                        <p>© <span></span> . yes yes it's me Mohammed 🤍 </p>
+                        <div class="col">
+                            <img src="imgs/pay01.svg">
+                            <img src="imgs/pay02.svg">
+                            <img src="imgs/pay03.svg">
+                            <img src="imgs/pay04.svg">
+                            <img src="imgs/pay05.svg">
+                        </div>
+                    </div>
+                </div>
+                <script src="JS/main.js"></script>
+        </div>
+    <script src="JS/main.js"></script>
+</body>
+</html>

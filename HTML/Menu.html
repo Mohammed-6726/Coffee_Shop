@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css style Sheet  -->
+    <link rel="stylesheet" href="../CSS/Menu.css">
+    <link rel="stylesheet" href="../CSS/mainStyle.css">
+    <link rel="icon" href="imgs/logo.png">
+    <!-- Google Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=DM+Serif+Display:ital@1&family=Inconsolata:wght@400;500;800&family=Raleway:ital,wght@0,500;1,300;1,400&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <!-- icons links  -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>Coffee Shop | Menu</title>
+</head>
+<body>
+    <div class="mainheader sticky" id="home">
+        <div class="container">
+            <a href="../index.html"><div class="logoimg"><img src="../imgs/logo.png"></div></a>
+            <nav>
+                <i class="bx bx-menu toggle"></i>
+                <ul>
+                    <li><a href="../index.html">Home</a></li> 
+                    <li><a href="#" class="active">Menu</a></li>
+                </ul>
+            <div class="login"><i class="bx bx-user"></i></div>
+            </nav>
+        </div>
+    </div>
+    <div class="login-cart-big-container">
+        <div class="login-cart-container close">
+            <div class="login-cart">
+                <span class="material-symbols-outlined login-cart-close-icon">close</span>
+                <div class="login-cart-header">
+                    <h1>Login</h1>
+                    <p>we're happe to have you</p>
+                </div>
+                <div class="login-cart-form">
+                    <form action="#">
+                        <div class="form-item">
+                            <span class="form-item-icon"><i class="bx bx-envelope"></i></span>
+                            <input type="email" placeholder="Enter your Email..." required>
+                        </div>
+                        <div class="form-item">
+                            <span class="form-item-icon"><i class="bx bx-lock"></i></span>
+                            <input type="password" placeholder="Enter your Password..." required>
+                        </div>
+                        <div class="form-item-other">
+                            <div class="checkbox">
+                                <input type="checkbox" id="rememberMeCheckbox">
+                                <label for="rememberMeCheckbox">Remember me</label>
+                            </div>
+                            <a href="#">I forgot my password</a>
+                        </div>
+                        <button type="submit" class="login-btn">Sign In</button>
+                    </form>
+                    <div class="login-cart-footer">
+                        Don't have an account ? <a href="#">Create Account</a> .
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="orders">
+        <div class="title">
+        <h1>Menu</h1>
+        <p> What would you like to order today, sir? </p>
+        </div>
+        <div class="search-box">
+            <form action="#">
+                    <input type="text" placeholder="Search...">
+                    <button class="search-btn">Search</button>
+            </form>
+        </div>
+        <div class="order-Container-taps">
+            <div class="tap-links">
+                <p>Drinks</p>
+                <p>Breakfast</p>
+                <p>Dessert</p>
+            </div>
+        </div>
+        <div class="Container-List">
+            <div class="container active">
+                <div class="orders-item-cart">
+                    <img src="../imgs/Coffee-it-imgs/blackCoffee-it.png">
+                    <h3>black Coffee</h3>
+                    <p class="counter">
+                        <span><i class="bx bx-minus-circle"></i></span>
+                        <span>0</span>
+                        <span><i class="bx bx-plus-circle"></i></span>
+                    </p>
+                    <p class="price-counter">
+                    <span>$ 3</span>
+                    <a href="#" class="pay-btn"><i class="bx bx-cart-add"></i></a>
+                    </p>
+                </div>
+                <div class="orders-item-cart">
+                    <img src="../imgs/Coffee-it-imgs/BlackCoffeeWithMilk-it.png" style="opacity: 70%;">
+                    <br>
+                    <h3>black Coffee With Milk</h3>
+                    <p class="counter">
+                        <span><i class="bx bx-minus-circle"></i></span>
+                        <span>0</span>
+                        <span><i class="bx bx-plus-circle"></i></span>
+                    </p>
+                    <p class="price-counter">
+                    <span>$ 4.99</span>
+                    <a href="#" class="pay-btn"><i class="bx bx-cart-add"></i></a>
+                    </p>
+                </div>
+                <div class="orders-item-cart">
+                    <img src="../imgs/Coffee-it-imgs/CoffeeColdBrew-it.png">
+                    <h3>Coffee Cold Brew</h3>
+                    <p class="counter">
+                        <span><i class="bx bx-minus-circle"></i></span>
+                        <span>0</span>
+                        <span><i class="bx bx-plus-circle"></i></span>
+                    </p>
+                    <p class="price-counter">
+                    <span>$ 5</span>
+                    <a href="#" class="pay-btn"><i class="bx bx-cart-add"></i></a>
+                    </p>
+                </div>
+                <div class="orders-item-cart">
+                    <img src="../imgs/Coffee-it-imgs/TurkishCoffee-it.png">
+                    <h3>Turkish Coffee</h3>
+                    <p class="counter">
+                        <span><i class="bx bx-minus-circle"></i></span>
+                        <span>0</span>
+                        <span><i class="bx bx-plus-circle"></i></span>
+                    </p>
+                    <p class="price-counter">
+                    <span>$ 3.99</span>
+                    <a href="#" class="pay-btn"><i class="bx bx-cart-add"></i></a>
+                    </p>
+                </div>
+                <div class="orders-item-cart">
+                    <img src="../imgs/Coffee-it-imgs/SingleEspresso-it.png">
+                    <h3>Single Espresso</h3>
+                    <p class="counter">
+                        <span><i class="bx bx-minus-circle"></i></span>
+                        <span>0</span>
+                        <span><i class="bx bx-plus-circle"></i></span>
+                    </p>
+                    <p class="price-counter">
+                    <span>$ 3.99</span>
+                    <a href="#" class="pay-btn"><i class="bx bx-cart-add"></i></a>
+                    </p>
+                </div>
+                <div class="orders-item-cart">
+                    <img src="../imgs/Coffee-it-imgs/SingleEspresso-it.png">
+                    <h3>Double Espresso</h3>
+                    <p class="counter">
+                        <span><i class="bx bx-minus-circle"></i></span>
+                        <span>0</span>
+                        <span><i class="bx bx-plus-circle"></i></span>
+                    </p>
+                    <p class="price-counter">
+                    <span>$ 4.99</span>
+                    <a href="#" class="pay-btn"><i class="bx bx-cart-add"></i></a>
+                    </p>
+                </div>
+                <div class="orders-item-cart">
+                    <img src="../imgs/Coffee-it-imgs/CappuccinoCoffee-it.png" style="padding-bottom: 12px;">
+                    <h3>Cappuccino Coffee</h3>
+                    <p class="counter">
+                        <span><i class="bx bx-minus-circle"></i></span>
+                        <span>0</span>
+                        <span><i class="bx bx-plus-circle"></i></span>
+                    </p>
+                    <p class="price-counter">
+                    <span>$ 5</span>
+                    <a href="#" class="pay-btn"><i class="bx bx-cart-add"></i></a>
+                    </p>
+                </div>
+                <div class="orders-item-cart">
+                    <img src="../imgs/Coffee-it-imgs/CaffeLatte-it.png" style="padding-bottom: 12px;">
+                    <h3>Caffe Latte</h3>
+                    <p class="counter">
+                        <span><i class="bx bx-minus-circle"></i></span>
+                        <span>0</span>
+                        <span><i class="bx bx-plus-circle"></i></span>
+                    </p>
+                    <p class="price-counter">
+                    <span>$ 6.99</span>
+                    <a href="#" class="pay-btn"><i class="bx bx-cart-add"></i></a>
+                    </p>
+                </div>
+                <div class="orders-item-cart">
+                    <img src="../imgs/Coffee-it-imgs/MochaCoffee-it.png">
+                    <h3>Mocha Coffee</h3>
+                    <p class="counter">
+                        <span><i class="bx bx-minus-circle"></i></span>
+                        <span>0</span>
+                        <span><i class="bx bx-plus-circle"></i></span>
+                    </p>
+                    <p class="price-counter">
+                    <span>$ 5.99</span>
+                    <a href="#" class="pay-btn"><i class="bx bx-cart-add"></i></a>
+                    </p>
+                </div>
+                <div class="orders-item-cart">
+                    <img src="../imgs/Coffee-it-imgs/EspressoMacchiato-it.png" style="width: 35%;">
+                    <h3>Espresso Macchiato</h3>
+                    <p class="counter">
+                        <span><i class="bx bx-minus-circle"></i></span>
+                        <span>0</span>
+                        <span><i class="bx bx-plus-circle"></i></span>
+                    </p>
+                    <p class="price-counter">
+                    <span>$ 4.99</span>
+                    <a href="#" class="pay-btn"><i class="bx bx-cart-add"></i></a>
+                    </p>
+                </div>
+                <div class="orders-item-cart">
+                    <img src="../imgs/Coffee-it-imgs/LatteMacchiato-it.png">
+                    <h3>Latte Macchiato</h3>
+                    <p class="counter">
+                        <span><i class="bx bx-minus-circle"></i></span>
+                        <span>0</span>
+                        <span><i class="bx bx-plus-circle"></i></span>
+                    </p>
+                    <p class="price-counter">
+                    <span>$ 6</span>
+                    <a href="#" class="pay-btn"><i class="bx bx-cart-add"></i></a>
+                    </p>
+                </div>
+                <div class="orders-item-cart">
+                    <img src="../imgs/Coffee-it-imgs/AmericanoCoffee-it.png">
+                    <h3>Americano Coffee</h3>
+                    <p class="counter">
+                        <span><i class="bx bx-minus-circle"></i></span>
+                        <span>0</span>
+                        <span><i class="bx bx-plus-circle"></i></span>
+                    </p>
+                    <p class="price-counter">
+                    <span>$ 5.98</span>
+                    <a href="#" class="pay-btn"><i class="bx bx-cart-add"></i></a>
+                    </p>
+                </div>
+                <div class="orders-item-cart">
+                    <img src="../imgs/Coffee-it-imgs/IrishCoffee-it.png">
+                    <h3>Irish Coffee</h3>
+                    <p class="counter">
+                        <span><i class="bx bx-minus-circle"></i></span>
+                        <span>0</span>
+                        <span><i class="bx bx-plus-circle"></i></span>
+                    </p>
+                    <p class="price-counter">
+                    <span>$ 8</span>
+                    <a href="#" class="pay-btn"><i class="bx bx-cart-add"></i></a>
+                    </p>
+                </div>
+                <div class="orders-item-cart">
+                    <img src="../imgs/Coffee-it-imgs/AffogatoCoffee-it.png">
+                    <h3>Affogato Coffee</h3>
+                    <p class="counter">
+                        <span><i class="bx bx-minus-circle"></i></span>
+                        <span>0</span>
+                        <span><i class="bx bx-plus-circle"></i></span>
+                    </p>
+                    <p class="price-counter">
+                    <span>$ 9.99</span>
+                    <a href="#" class="pay-btn"><i class="bx bx-cart-add"></i></a>
+                    </p>
+                </div>
+                <div class="orders-item-cart">
+                    <img src="../imgs/Coffee-it-imgs/GreenCoffee-it.png" style="width: 30%;">
+                    <h3>Green Coffee</h3>
+                    <p class="counter">
+                        <span><i class="bx bx-minus-circle"></i></span>
+                        <span>0</span>
+                        <span><i class="bx bx-plus-circle"></i></span>
+                    </p>
+                    <p class="price-counter">
+                    <span>$ 7.99</span>
+                    <a href="#" class="pay-btn"><i class="bx bx-cart-add"></i></a>
+                    </p>
+                </div>
+                <div class="orders-item-cart">
+                    <img src="../imgs/Coffee-it-imgs/iceAmericano-it .png" style="padding-bottom: 12px;">
+                    <h3>ice Americano </h3>
+                    <p class="counter">
+                        <span><i class="bx bx-minus-circle"></i></span>
+                        <span>0</span>
+                        <span><i class="bx bx-plus-circle"></i></span>
+                    </p>
+                    <p class="price-counter">
+                    <span>$ 6.98</span>
+                    <a href="#" class="pay-btn"><i class="bx bx-cart-add"></i></a>
+                    </p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="orders-item-cart">
+                    <img src="../imgs/Breakfast-it-Imgs/pancakeswithstrawberries-it.png">
+                    <h3>pancakes with strawberries</h3>
+                    <p class="counter">
+                        <span><i class="bx bx-minus-circle"></i></span>
+                        <span>0</span>
+                        <span><i class="bx bx-plus-circle"></i></span>
+                    </p>
+                    <p class="price-counter">
+                    <span>$ 9.55</span>
+                    <a href="#" class="pay-btn"><i class="bx bx-cart-add"></i></a>
+                    </p>
+                </div>
+                <div class="orders-item-cart">
+                    <img src="../imgs/Breakfast-it-Imgs/Chickensandwich-it.png">
+                    <br>
+                    <br>
+                    <h3>Panini Ham Chicken sandwich</h3>
+                    <p class="counter">
+                        <span><i class="bx bx-minus-circle"></i></span>
+                        <span>0</span>
+                        <span><i class="bx bx-plus-circle"></i></span>
+                    </p>
+                    <p class="price-counter">
+                    <span>$ 5.99</span>
+                    <a href="#" class="pay-btn"><i class="bx bx-cart-add"></i></a>
+                    </p>
+                </div>
+                <div class="orders-item-cart">
+                    <img src="../imgs/Breakfast-it-Imgs/Eggbaconsandwichfreematerial-it.png">
+                    <br>
+                    <h3>Egg bacon sandwich free material</h3>
+                    <p class="counter">
+                        <span><i class="bx bx-minus-circle"></i></span>
+                        <span>0</span>
+                        <span><i class="bx bx-plus-circle"></i></span>
+                    </p>
+                    <p class="price-counter">
+                    <span>$ 12</span>
+                    <a href="#" class="pay-btn"><i class="bx bx-cart-add"></i></a>
+                    </p>
+                </div>
+                <div class="orders-item-cart">
+                    <img src="../imgs/Breakfast-it-Imgs/chocolatViennoiserieDanish-it.png" style="width: 6rem;">
+                    <br>
+                    <h3>chocolat Viennoiserie Danish</h3>
+                    <p class="counter">
+                        <span><i class="bx bx-minus-circle"></i></span>
+                        <span>0</span>
+                        <span><i class="bx bx-plus-circle"></i></span>
+                    </p>
+                    <p class="price-counter">
+                    <span>$ 4.99</span>
+                    <a href="#" class="pay-btn"><i class="bx bx-cart-add"></i></a>
+                    </p>
+                </div>
+                <div class="orders-item-cart">
+                    <img src="../imgs/Breakfast-it-Imgs/cheesesandwichSubmarine-it.png" style="width: 8rem;">
+                    <br>
+                    <br>
+                    <h3>cheese sandwich Submarine</h3>
+                    <p class="counter">
+                        <span><i class="bx bx-minus-circle"></i></span>
+                        <span>0</span>
+                        <span><i class="bx bx-plus-circle"></i></span>
+                    </p>
+                    <p class="price-counter">
+                    <span>$ 6.99</span>
+                    <a href="#" class="pay-btn"><i class="bx bx-cart-add"></i></a>
+                    </p>
+                </div>
+                <div class="orders-item-cart">
+                    <img src="../imgs/Breakfast-it-Imgs/chocolatStuffingDanishpastry-it.png" style="width: 6rem;">
+                    <h3>chocolat Stuffing Danish pastry</h3>
+                    <p class="counter">
+                        <span><i class="bx bx-minus-circle"></i></span>
+                        <span>0</span>
+                        <span><i class="bx bx-plus-circle"></i></span>
+                    </p>
+                    <p class="price-counter">
+                    <span>$ 8.99</span>
+                    <a href="#" class="pay-btn"><i class="bx bx-cart-add"></i></a>
+                    </p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="orders-item-cart">
+                    <img src="../imgs/Dessert-it-imgs/Chocolatebrownie-it.png">
+                    <h3>Chocolate brownie</h3>
+                    <p class="counter">
+                        <span><i class="bx bx-minus-circle"></i></span>
+                        <span>0</span>
+                        <span><i class="bx bx-plus-circle"></i></span>
+                    </p>
+                    <p class="price-counter">
+                    <span>$ 8</span>
+                    <a href="#" class="pay-btn"><i class="bx bx-cart-add"></i></a>
+                    </p>
+                </div>
+                <div class="orders-item-cart">
+                    <img src="../imgs/Dessert-it-imgs/Chocolatechip-it.png">
+                    <h3>7th Chocolate chip</h3>
+                    <p class="counter">
+                        <span><i class="bx bx-minus-circle"></i></span>
+                        <span>0</span>
+                        <span><i class="bx bx-plus-circle"></i></span>
+                    </p>
+                    <p class="price-counter">
+                    <span>$ 5.99</span>
+                    <a href="#" class="pay-btn"><i class="bx bx-cart-add"></i></a>
+                    </p>
+                </div>
+                <div class="orders-item-cart">
+                    <img src="../imgs/Dessert-it-imgs/ChocolatecakeFrosting-it.png" style="width: 5rem;">
+                    <h3>Chocolate cake</h3>
+                    <p class="counter">
+                        <span><i class="bx bx-minus-circle"></i></span>
+                        <span>0</span>
+                        <span><i class="bx bx-plus-circle"></i></span>
+                    </p>
+                    <p class="price-counter">
+                    <span>$ 7</span>
+                    <a href="#" class="pay-btn"><i class="bx bx-cart-add"></i></a>
+                    </p>
+                </div>
+                <div class="orders-item-cart">
+                    <img src="../imgs/Dessert-it-imgs/CupcakeRedvelvet-it.png" style="width: 5.5rem;">
+                    <h3>Three Cupcake velvet</h3>
+                    <p class="counter">
+                        <span><i class="bx bx-minus-circle"></i></span>
+                        <span>0</span>
+                        <span><i class="bx bx-plus-circle"></i></span>
+                    </p>
+                    <p class="price-counter">
+                    <span>$ 7</span>
+                    <a href="#" class="pay-btn"><i class="bx bx-cart-add"></i></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div class="full-footer-content" id="footer">
+        <div class="Coffee-Help-Section">
+            <div class="Sec-help">
+                <h3>We're Always Here To Help <br><p>Reach out to us through any of these support channels</p> </h3>
+                <div class="Sec-help">
+                    <a href="#">
+                        <i class="bx bx-help-circle"></i>
+                        <p>help.coffeeShpe.com</p>
+                    </a>
+                </div>
+                <div class="Sec-help">
+                    <a href="#">
+                        <i class="bx bx-envelope"></i>
+                        <p>support@coffeeshop.com</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+            <div class="footer container">
+                <div class="footer-box">
+                    <div class="logo"><img src="../imgs/logo.png"></div>
+                    <div class="social">
+                    <a href="#"><i class="bx bxl-facebook"></i></a>
+                    <a href="#"><i class="bx bxl-instagram"></i></a>
+                    <a href="#"><i class="bx bxl-twitter"></i></a>
+                    <a href="#"><i class="bx bxl-youtube"></i></a>
+                </div>
+                </div>
+                <div class="footer-box">
+                    <h3>pages</h3>
+                    <a href="../index.html">Home</a>
+                    <a href="../HTML/Menu.html">Menu</a>
+                </div>
+                <div class="footer-box">
+                    <h3>Legal</h3>
+                    <a href="#">Privce Policy</a>
+                    <a href="#">Refund Policy</a>
+                    <a href="#">Terms Of use</a>
+                    <a href="#">Terms Of use</a>
+                    <a href="#">Disclamer</a>
+                </div>
+                <div class="footer-box">
+                    <h3>Branches</h3>
+                    <p>United States</p>
+                    <p>Saudi Arabia</p>
+                    <p>Japan</p>
+                    <p>Germany</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="col">
+                    <p>© <span></span> . yes yes it's me Mohammed 🤍 </p>
+                    <div class="col">
+                        <img src="../imgs/pay01.svg">
+                        <img src="../imgs/pay02.svg">
+                        <img src="../imgs/pay03.svg">
+                        <img src="../imgs/pay04.svg">
+                        <img src="../imgs/pay05.svg">
+                    </div>
+                </div>
+            </div>
+            <script src="JS/main.js"></script>
+    </div>
+    <script src="../JS/Menu.js"></script>
+    <script src="../JS/main.js"></script>
+</body>
+</html>
