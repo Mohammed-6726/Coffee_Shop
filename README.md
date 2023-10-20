@@ -3,8 +3,7 @@
 # Coffee Shop Project
 
 Welcome to the Coffee Shop project! This repository contains the source code and resources for our virtual coffee shop. Here, we'll provide an overview of the project, how to get started, and important details.
-
-![Coffee Shop Logo](imgs/logo.png)
+![Home Page](imgs/homePage.png)
 
 ## Overview
 
@@ -49,7 +48,6 @@ To get started with the Coffee Shop project, follow these steps:
 
 Here are some screenshots from the project:
 
-![Home Page](imgs/homePage.png)
 ![Menu Page](imgs/menu1.png)
 ![Cart Page](imgs/menu2.png)
 ![Cart Page](imgs/menu3.png)
