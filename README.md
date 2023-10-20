@@ -49,9 +49,10 @@ To get started with the Coffee Shop project, follow these steps:
 
 Here are some screenshots from the project:
 
-![Home Page](images/home_page.png)
-![Menu Page](images/menu_page.png)
-![Cart Page](images/cart_page.png)
+![Home Page](images/homePage.png)
+![Menu Page](images/menu1.png)
+![Cart Page](images/menu2.png)
+![Cart Page](images/menu3.png)
 
 ## Contributing
 
