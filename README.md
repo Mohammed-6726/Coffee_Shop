@@ -4,7 +4,7 @@
 
 Welcome to the Coffee Shop project! This repository contains the source code and resources for our virtual coffee shop. Here, we'll provide an overview of the project, how to get started, and important details.
 
-![Coffee Shop Logo](images/coffee_shop_logo.png)
+![Coffee Shop Logo](imgs/logo.png)
 
 ## Overview
 
